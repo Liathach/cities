@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cityfinder</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div class="clPanels">
+            <div class="clLeftPanel">
+                <h1>Cities</h1>
+                <div id="idNewCity" class="clDivSection">
+                    <span>City Name: </span>
+                    <input placeholder="City Name" type="text" id="idCityName">
+                    <br>
+                    <span>Initial Population: </span>
+                    <input placeholder="Initial Population" type="number" id="idInitPop">
+                    <br>
+                    <span>Latitude: </span>
+                    <input placeholder="Latitude" type="number" id="idLat">
+                    <br>
+                    <span>Longitude: </span>
+                    <input placeholder="Longitude" type="number" id="idLong">
+                    <br>
+                    <button type="button" id="idAddCityBtn" class="button">Add City</button>
+                    <br>
+                </div>
+                <br>
+                <div id="idUpdateCity" class="clDivSection">
+                    <strong>City changes</strong>
+                    <br>
+                    Select City to Update:
+                    <select id="idDropDown" name="dropdown">
+                        <option selected="">Select</option>
+                    </select>
+                    <br> Moving People:
+                    <input placeholder="How many?" type="number" id="idAmount">
+                    <br>
+                    <button type="button" id="idMoveInBtn" class="button">Move In</button>
+                    <button type="button" id="idMoveOutBtn" class="button">Move Out</button>
+                    <br>
+                </div>
+                <br>
+                <h1>City Status</h1>
+                <div id="idCityStatus" class="clDivSection">
+                    <!-- <button type="button" id="idTotalBtn" class="button">Total Account Balance</button> -->
+                    <!-- <br><br> -->
+                    <strong>Message Area</strong>
+                    <br>
+                    <p id="idCityStatusMsg">? ? ? </p>
+                    <!-- <br> -->
+                    <button type="button" id="idLowestBtn" class="button">Lowest City Population</button>
+                    <button type="button" id="idHighestBtn" class="button">Highest City Population</button>
+                    <button type="button" id="idNorthBtn" class="button">Most Northerly City</button>
+                    <button type="button" id="idSouthBtn" class="button">Most Southerly City</button>
+                </div>
+            </div>
+            <div class="clRightPanel">
+                <h1>City details</h1>
+                <div class="clCityCards" id="idCityCards">Thank you for using Cityfinder
+                    <!-- <strong class="clCardTitle" id="cardTitle">Account Name</strong>
+                    <br><br>
+                    <strong> Current Balance: </strong>
+                    <br>
+                    <p id="idAccountStatusMsg">? ? ? </pspan>
+                    <br>
+                    <button type="button" id="idRemoveAcctButton" class="button">Remove Account</button> -->
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="./scripts/index.js"></script>
+</html>

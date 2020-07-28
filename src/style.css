@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    vertical-align: text-top;
+}
+
+h4 {
+    display: inline;
+}
+
+p, span input {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #c0c7f0;
+}
+
+.clPanels {
+    display: table;
+    width: 100%;
+}
+
+.clLeftPanel {
+    display: table-cell;
+    vertical-align: top;
+    margin: auto;
+    width: 50%;
+    font-size: 1rem;
+    height: 100%;
+    border: solid;
+    background-color: #717fc0;
+    color: rgb(41, 39, 39);
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+.clRightPanel {
+    display: table-cell;
+    vertical-align: top;
+    margin: auto;
+    width: 50%;
+    font-size: 1rem;
+    height: 100%;
+    border: solid;
+    background-color: #717fc0;
+    color: rgb(41, 39, 39);
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.clCityCards {
+    vertical-align: middle;
+    margin: auto;
+    width: 80%;
+    font-size: 1rem;
+    height: 100%;
+    border: solid;
+    background-color: #c5c9d6;
+    color: rgb(41, 39, 39);
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+}
+
+.clDivSection {
+    vertical-align: middle;
+    margin: auto;
+    width: 80%;
+    font-size: 1rem;
+    height: 100%;
+    border: solid;
+    background-color: #9299b6;
+    color: rgb(41, 39, 39);
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+}
